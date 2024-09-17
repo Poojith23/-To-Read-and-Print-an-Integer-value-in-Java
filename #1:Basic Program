@@ -1,0 +1,13 @@
+import java.io.*;
+import java.util.Scanner;
+
+public class BasicPrograms {
+	public static void main(String[] args) {
+		int v;
+		System.out.println("Enter the number to print");
+		Scanner sc= new Scanner(System.in);
+		v = sc.nextInt();
+		System.out.println("The given number is:"+v);
+	}
+
+}
